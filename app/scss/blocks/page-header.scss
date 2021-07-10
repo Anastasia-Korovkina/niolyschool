@@ -1,0 +1,55 @@
+.page-header {
+  background-color: $basic_blue;
+  background: url(../../images/boy.png) 90% 10% no-repeat, url(../../images/background.jpg) no-repeat;
+  background-size: auto, 100%;
+  min-height: 650px;
+
+  &__wrapper {
+    padding: 50px 165px;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 165px;
+  }
+
+  &__logo {
+    padding-right: 50px;
+  }
+
+  &__slogan {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: $white;
+    width: 592px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: $white;
+    width: 546px;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+
+    margin-top: 35px;
+    margin-bottom: 190px;
+  }
+
+  &__link {
+    font-weight: 700;
+    font-size: 17px;
+    color: $white;
+
+    margin-right: 30px;
+  }
+}
