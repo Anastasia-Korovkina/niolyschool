@@ -22,3 +22,13 @@ body {
   background-color: $background-button;
   border-radius: 50px;
 }
+
+.title {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 32px;
+  color: $color_title;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

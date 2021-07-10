@@ -1,0 +1,86 @@
+.content {
+  margin-bottom: 130px;
+  
+  &__wrapper {
+    margin: 0 300px 0 260px;
+  }
+
+  &__title {
+    margin-bottom: 62px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px 53px;
+
+    list-style: none;
+    margin: 0 0 61px 0;
+    padding: 0;
+  }
+
+  &__item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: $color_title;
+
+    width: 310px;
+    padding-left: 97px;
+    position: relative;
+
+    &-1::before {
+      content: url(../../images/icon-bolt.svg);
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      top: -80px;
+      left: -97px;
+    }
+
+    &-2::before {
+      content: url(../../images/icon-star.svg);
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      top: -80px;
+      left: -97px;
+    }
+
+    &-3::before {
+      content: url(../../images/icon-calculator.svg);
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      top: -80px;
+      left: -97px;
+    }
+
+    &-4::before {
+      content: url(../../images/icon-message.svg);
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      top: -40px;
+      left: -60px;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    width: 511px;
+    line-height: 55px;
+    color: $black;
+    text-align: center;
+    margin: 0 auto;
+    background-color: $white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 100px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &__span {
+    font-weight: 700;
+    color: #4ea7ff;
+  }
+}
